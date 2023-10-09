@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_container_con_provinces",
+  "info": {
+    "displayName": "ConProvinces"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "text"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_pro_pros",
+  "info": {
+    "displayName": "pro"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

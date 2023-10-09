@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_container_hellos",
+  "info": {
+    "displayName": "hello"
+  },
+  "options": {},
+  "attributes": {
+    "txt": {
+      "type": "string"
+    }
+  }
+}
