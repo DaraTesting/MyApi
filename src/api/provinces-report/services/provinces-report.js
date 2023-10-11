@@ -11,7 +11,7 @@ module.exports = {
         // we dont really need contentSections for this example.
         // its kept here, just for your reference
         const entries = await strapi.entityService.findMany('api::province.province', {
-          fields: ['id', 'name', 'age'],
+          fields: ['id', 'name', 'price', 'image', 'comments'],
           populate:{
             image: {
             }
@@ -32,8 +32,11 @@ module.exports = {
             acc.push({
               id: item.id,
               name: item.name || '',
-              age: item.age || '',
-              image: 'http://10.0.2.2:1337' + item.image.formats.thumbnail.url || '',
+              price: item.price || '',
+              image: item.price || '', 
+              comments: item.comments || ''
+              // image: 'http://10.0.2.2:1337' + item.image.formats.thumbnail.url || '',
+
             });
             return acc;
           }, [])
