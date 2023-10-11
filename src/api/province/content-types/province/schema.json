@@ -29,11 +29,8 @@
         "audios"
       ]
     },
-    "list": {
-      "displayName": "hello",
-      "type": "component",
-      "repeatable": false,
-      "component": "container.hello"
+    "comments": {
+      "type": "string"
     }
   }
 }
